@@ -1,0 +1,10 @@
+{
+   "system":{
+      "tempfs": {
+          "doc": "Specification for a temporary file system for video snapshots",
+          "dir": "/tmp/ramdisk",
+          "enabled": true 
+      }
+   },
+   "ffmpegPath":"/usr/local/bin/"
+}
