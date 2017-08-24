@@ -41,11 +41,11 @@ if __name__ == '__main__':
     import sys
 
     def success(jobj):
-        print json.dumps(jobj,indent=4,sort_keys=True)
+        print( json.dumps(jobj,indent=4,sort_keys=True) )
         sys.exit(0)
 
     def failure():
-        print "timeout"
+        print( "timeout" )
         sys.exit(-1) 
 
     jobj = async_inspect(sys.argv[1], success, failure)
